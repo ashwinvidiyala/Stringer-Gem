@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "stringer"
   spec.version       = Stringer::VERSION
   spec.authors       = ["Ashwin Vidiyala"]
-  spec.email         = ["ashwinvidiyala@gmail.com"]
+  spec.email         = [""]
 
   spec.summary       = "This is a simple gem that will help us extend the functionality of strings."
-  spec.homepage      = "TODO: We will fill this out later"
+  spec.homepage      = "https://github.com/ashwinvidiyala/Stringer-Gem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  gem "stringer", :git => "git://github.com/oscarvazquez/stringer.git"
 end

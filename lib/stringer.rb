@@ -1,4 +1,4 @@
-# require "stringer/version"
+require "stringer/version"
 
 module Stringer
   def self.spacify *strings
